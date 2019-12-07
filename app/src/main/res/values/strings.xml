@@ -2,13 +2,24 @@
     <string name="app_name">Adventure Game</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="intro">One dark spooky night, you and your friends James and John are playing truth or dare. When it comes to be your turn you choose dare. “I dare you to go into the spooky graveyard across the street!” says James. Not wanting to look like a chicken, you agree. So you walk across the street to the graveyard, while James, and John stand in front of John’s house on the other side. In your way is an imposing iron gate.
-        \n Do you open the gate? </string>
+    <string name="intro">One dark spooky night, you and your friends James and John are playing truth or dare. When it comes to be your turn you choose dare. “I dare you to go into the spooky graveyard across the street!” says James. Not wanting to look like a chicken, you agree. So you walk across the street to the graveyard, while James, and John stand in front of John’s house on the other side. In your way is an imposing iron gate.</string>
     <string name="loose">James and John laugh at you. They call you the biggest chicken of all time. In your shame you become depressed and you fail all your classes, especially OOP. \nTHE END</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+    <string name="yes">Open the gate.</string>
+    <string name="no">Chicken out.</string>
     <string name="try_again">Try Again</string>
     <string name="nothing">null</string>
     <string name="title_activity_main3">Main3Activity</string>
+    <string name="court_yard">You put your hand on the iron wrought gate and push, the doors make a sharpened screech as you cross the threshold into the graveyard. You walk a few steps in, but then get a shiver down your spine. You decide that has been enough adventuring for one day and turn back to leave, only for there to be a sharp cold wind, and the deafening sound of the gate slamming behind you. Frightened, you run back to the gate, pulling on it with all of your might, but to no avail, it is sealed shut. You notice a keyhole in the gate and start searching for a key. The clouds part and you see a mysterious decrepit house on the hill. You figure someone in the house must have the key or at least help you get out, so you set off to the house.</string>
+    <string name="cont">Continue...</string>
+    <string name="court_yard2">As you head up to the house you walk through the graveyard you were dared to go through. You are a little worried because of the entire series of events, but graveyards don’t scare you, after all, they’re just corpes in the ground, they can’t hurt you.</string>
+    <string name="cy_opt1">Continue exploring the graveyard.</string>
+    <string name="cy_opt2">Go up to the front porch of the house.</string>
+    <string name="gy_cont">You continue to walk around the graveyard, observing the epithets that are carved into the ancient headstones. One that gives you a good chuckle reads: “Dear Departed brother Dave, he chased a bear into a cave.” Laughter is the best medicine after all, you feel slightly more at ease. You continue searching for the graveyard, hoping that maybe the key is somewhere around these graves, all of a sudden you hear a rattling sound. You look around, maybe there’s a dog? But no. Around a crypt creeps a skeleton. You are shocked beyond all belief to see this re-animated corpse. It’s skin and muscle completely gone, save for the walking bones. You are frozen in fear, you cannot move to run away. You hear more rattling around you, you are surrounded by these gutless corpses.</string>
+    <string name="gy_cont_opt1">Try talking to them.</string>
+    <string name="gy_cont_opt2">Tell skeleton jokes.</string>
+    <string name="gy_cont_opt3">Try fighting them.</string>
+    <string name="title_activity_foyer">Foyer</string>
+    <string name="title_activity_grave_yard">GraveYard</string>
+
 
 </resources>

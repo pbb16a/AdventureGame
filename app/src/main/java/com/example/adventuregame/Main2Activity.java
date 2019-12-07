@@ -16,10 +16,9 @@ import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
 
-    private TextView textViewNum;
+    private TextView textView;
     private TextView buttonText1;
     private TextView buttonText2;
-    private TextView buttonText3;
 
 
     @Override
@@ -30,10 +29,9 @@ public class Main2Activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //get textviews
-        textViewNum = findViewById(R.id.textView3);
+        textView = findViewById(R.id.textView3);
         buttonText1 = findViewById(R.id.button_1);
         buttonText2 = findViewById(R.id.button_2);
-        buttonText3 = findViewById(R.id.button_3);
 
         //get buttons
         final Button button1 = findViewById(R.id.button_1);
@@ -42,7 +40,7 @@ public class Main2Activity extends AppCompatActivity {
 
 
         //set text to starting point
-        textViewNum.setText(R.string.intro);
+        textView.setText(R.string.intro);
         buttonText1.setText(R.string.yes);
         buttonText2.setText(R.string.no);
 
@@ -58,7 +56,7 @@ public class Main2Activity extends AppCompatActivity {
         //button 2 says no
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                textViewNum.setText(R.string.loose);
+                textView.setText(R.string.loose);
                 button2.setVisibility(View.GONE);
                 button3.setVisibility(View.GONE);
                 buttonText1.setText(R.string.try_again);
