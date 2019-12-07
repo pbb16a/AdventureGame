@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Adventure Game</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="intro">One dark spooky night, you and your friends James and John are playing truth or dare. When it comes to be your turn you choose dare. “I dare you to go into the spooky graveyard across the street!” says James. Not wanting to look like a chicken, you agree. So you walk across the street to the graveyard, while James, and John stand in front of John’s house on the other side. In your way is an imposing iron gate.
+        \n Do you open the gate? </string>
+    <string name="loose">James and John laugh at you. They call you the biggest chicken of all time. In your shame you become depressed and you fail all your classes, especially OOP. \nTHE END</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="try_again">Try Again</string>
+    <string name="nothing">null</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
 </resources>
