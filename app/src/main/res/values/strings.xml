@@ -34,4 +34,7 @@
     <string name="go_gate">Use the skeleton key on the gate.</string>
     <string name="title_activity_gate">Gate</string>
     <string name="title_activity_porch">Porch</string>
+    <string name="open_door">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door and put the key into the lock. The skeleton key worked! However it got caught in the keyhole and you cannot pull it out, probably best to leave it there, it’s not as if anyone else will be needing it.</string>
+    <string name="open_door_fail">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door. You decide to be polite and knock to see if anyone is of residence. You give three hard knocks on the door and hear them echo through the hallowed halls within. You wait a while, but there is no answer. You decide to be forceful and let yourself in. You try to turn the doorknob but to no avail. Seems like the door is locked. Better find a key to use.</string>
+    <string name="look_for_key">Go back to the graveyard to find a key.</string>
 </resources>
