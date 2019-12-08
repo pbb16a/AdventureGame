@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Dining"
+            android:label="@string/title_activity_dining"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Porch"
             android:label="@string/title_activity_porch"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Gate"
             android:label="@string/title_activity_gate"

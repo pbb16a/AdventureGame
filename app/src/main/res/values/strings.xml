@@ -11,9 +11,7 @@
     <string name="title_activity_main3">Main3Activity</string>
     <string name="court_yard">You put your hand on the iron wrought gate and push, the doors make a sharpened screech as you cross the threshold into the graveyard. You walk a few steps in, but then get a shiver down your spine. You decide that has been enough adventuring for one day and turn back to leave, only for there to be a sharp cold wind, and the deafening sound of the gate slamming behind you. Frightened, you run back to the gate, pulling on it with all of your might, but to no avail, it is sealed shut. You notice a keyhole in the gate and start searching for a key. The clouds part and you see a mysterious decrepit house on the hill. </string>
     <string name="cont">Continue…</string>
-    <string name="court_yard2"> As you head up to the house you walk through the graveyard you were dared to go through. You are a little worried because of the entire series of events, but graveyards don’t scare you, after all, they’re just corpes in the ground, they can’t hurt you.
- You continue to walk around the graveyard, observing the epithets that are carved into the ancient headstones. One that gives you a good chuckle reads: “Dear Departed brother Dave, he chased a bear into a cave.” Laughter is the best medicine after all, you feel slightly more at ease.
-</string>
+    <string name="court_yard2"> As you head up to the house you walk through the graveyard you were dared to go through. You are a little worried because of the entire series of events, but graveyards don’t scare you, after all, they’re just corpes in the ground, they can’t hurt you. You continue to walk around the graveyard, observing the epithets that are carved into the ancient headstones. One that gives you a good chuckle reads: “Dear Departed brother Dave, he chased a bear into a cave.” Laughter is the best medicine after all, you feel slightly more at ease.</string>
     <string name="cy_opt1">Continue exploring the graveyard.</string>
     <string name="cy_opt2">Go up to the front porch of the house.</string>
     <string name="porch">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door. You decide to be polite and knock to see if anyone is of residence. You give three hard knocks on the door and hear them echo through the hallowed halls within. You wait a while, but there is no answer. You decide to be forceful and let yourself in. You try to turn the doorknob but to no avail. Seems like the door is locked. Better find a key to use.</string>
@@ -29,7 +27,6 @@
     <string name="fight">You become so afraid you start trying to attack the stack of bones, but to no avail. Bone is stronger than concrete afterall, but you’re too afraid to know or care. You end up hurting your hand, and as the skeletons get even closer to you, you realize you can’t fight them all. So you crouch down and crawl through their femurs and run around them. They realize where you went and start walking towards you once again. </string>
     <string name="title_activity_foyer">Foyer</string>
     <string name="title_activity_grave_yard">GraveYard</string>
-    <!--    <string name="k_explor">You continue to walk around the graveyard, observing the epithets that are carved into the ancient headstones. One that gives you a good chuckle reads: “Dear Departed brother Dave, he chased a bear into a cave.” Laughter is the best medicine after all, you feel slightly more at ease. </string>-->
     <string name="gate">You run back to the gate. It is still sealed shut. You try and put the skeleton keyhole in the gates key hole. It doesn’t fit. You figure someone in the house must have the key or at least help you get out, so you set off to the house.</string>
     <string name="go_gate">Use the skeleton key on the gate.</string>
     <string name="title_activity_gate">Gate</string>
@@ -37,4 +34,13 @@
     <string name="open_door">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door and put the key into the lock. The skeleton key worked! However it got caught in the keyhole and you cannot pull it out, probably best to leave it there, it’s not as if anyone else will be needing it.</string>
     <string name="open_door_fail">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door. You decide to be polite and knock to see if anyone is of residence. You give three hard knocks on the door and hear them echo through the hallowed halls within. You wait a while, but there is no answer. You decide to be forceful and let yourself in. You try to turn the doorknob but to no avail. Seems like the door is locked. Better find a key to use.</string>
     <string name="look_for_key">Go back to the graveyard to find a key.</string>
+    <string name="foyer">As you enter the dark ominous house you can barely see anything except what is illuminated by the moon. As you walk in the door closes behind you. You think to yourself you should do something to prop these doors open in the future. You reach for the doorknob only to find that it is not locked! Makes things easier for you, you suppose. You turn back to the foyeye and start to walk around, only for hundreds of candles to be lit simultaneously. The room is lit up so you can see a few doors in front of you. You choose one. </string>
+    <string name="door1">Grandiose door with music playing behind it.</string>
+    <string name="door2">A normal looking door with clamoring sounds behind it.</string>
+    <string name="door3">A stair case that is visibly blocked by furniture.</string>
+    <string name="title_activity_dining">Dining</string>
+    <string name="k_locked">The normal looking door is locked.</string>
+    <string name="s_blocked">You can\'t get passed all the furniture, and it is all too heavy to move.</string>
+
+
 </resources>
