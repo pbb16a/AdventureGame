@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
         final Button button = findViewById(R.id.s_button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //TESTING CHANGE BACK
                 startActivity(new Intent(MainActivity.this, Gate.class));
+//                startActivity(new Intent(MainActivity.this, Foyer.class));
 
             }
         });
