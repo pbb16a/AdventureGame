@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Main2Activity"
-    tools:showIn="@layout/activity_main2">
+    tools:context=".Gate"
+    tools:showIn="@layout/content_gate">
 
     <Button
         android:id="@+id/button_1"
