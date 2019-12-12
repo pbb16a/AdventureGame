@@ -38,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //TESTING CHANGE BACK
                 startActivity(new Intent(MainActivity.this, Gate.class));
-//                startActivity(new Intent(MainActivity.this, Foyer.class));
-
+//                startActivity(new Intent(MainActivity.this, Dining.class));
             }
         });
 

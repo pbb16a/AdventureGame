@@ -47,7 +47,19 @@ public class Foyer extends AppCompatActivity {
 
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { //after you hit continue..
-                startActivity(new Intent(Foyer.this, Dining.class));
+//                startActivity(new Intent(Foyer.this, Dining.class));
+                //to be continued
+                textView.setText(R.string.tbd);
+                buttonText1.setText(R.string.play_again);
+                button2.setVisibility(View.GONE);
+                button3.setVisibility(View.GONE);
+                button1.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View v) {
+                        startActivity(new Intent(Foyer.this, MainActivity.class));
+                    }
+                });
+
+
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {

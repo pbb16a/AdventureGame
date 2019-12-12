@@ -27,6 +27,10 @@ public class Table extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        if(Dining.book && Dining.glasses){
+            startActivity(new Intent(Table.this, Dining.class));
+        }
+
         //get textviews
         textView = findViewById(R.id.textView3);
         buttonText1 = findViewById(R.id.button_1);
@@ -112,7 +116,7 @@ public class Table extends AppCompatActivity {
 
                 button1.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Dining.goblet = true;
+                        Dining.book = true;
                         startActivity(new Intent(Table.this, Table.class));
 
                     }

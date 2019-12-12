@@ -34,29 +34,31 @@
     <string name="open_door">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door and put the key into the lock. The skeleton key worked! However it got caught in the keyhole and you cannot pull it out, probably best to leave it there, it’s not as if anyone else will be needing it.</string>
     <string name="open_door_fail">You walk up the rickety, decayed stairs to the front door. You walk forward to the giant imposing wooden door. You decide to be polite and knock to see if anyone is of residence. You give three hard knocks on the door and hear them echo through the hallowed halls within. You wait a while, but there is no answer. You decide to be forceful and let yourself in. You try to turn the doorknob but to no avail. Seems like the door is locked. Better find a key to use.</string>
     <string name="look_for_key">Go back to the graveyard to find a key.</string>
+<!--    foyer-->
     <string name="foyer">As you enter the dark ominous house you can barely see anything except what is illuminated by the moon. As you walk in the door closes behind you. You think to yourself you should do something to prop these doors open in the future. You reach for the doorknob only to find that it is not locked! Makes things easier for you, you suppose. You turn back to the foyeye and start to walk around, only for hundreds of candles to be lit simultaneously. The room is lit up so you can see a few doors in front of you. You choose one. </string>
     <string name="door1">Grandiose door with music playing behind it.</string>
     <string name="door2">A normal looking door with clamoring sounds behind it.</string>
     <string name="door3">A stair case that is visibly blocked by furniture.</string>
     <string name="title_activity_dining">Dining</string>
     <string name="k_locked">The normal looking door is locked.</string>
+<!--    dinging-->
     <string name="s_blocked">You can\'t get passed all the furniture, and it is all too heavy to move.</string>
     <string name="dining">You go up to the grandiose doors and push them open. Once inside the room you hear swelling organ music, and you see a giant organ, however you do not see anyone playing it. There is a long dining table in the center of the room with mountains of food, silverware and a few other items on it.</string>
+    <string name="dining2">You enter the dining room again. The ghosts are still twirling around the room. There is a long dining table in the center of the room with mountains of food, silverware and a few other items on it.</string>
     <string name="to_door">Try to go through the door. </string>
     <string name="ex_items">Go check out the items on the table. </string>
     <string name="wo_glasses">You try to make your way to the door, but you are constantly pushed back to the entrance by an invisible force. No matter how hard you try you cannot cross the room.</string>
+<!--   TABLE-->
     <string name="w_glasses"> As you put the glasses on you see misty almost transparent specters. They are eating jovily and dancing to the music. You notice another specter passionately playing the organ. You slip through the dancing and celebrating spirits, who either don’t notice or don’t care about your presence. It doesn’t matter either way, you get to the door and open it.</string>
     <string name="check_table"> Surly something on this table can help you, what will you grab? </string>
     <string name="goblet">A Goblet filled with a red liquid.</string>
     <string name="glasses">A pair of eyeglasses.</string>
     <string name="book">An old looking book.</string>
-
     <string name="af_goblet">You pick up the goblet, you try to figure out what is in the cup, but you can\'t. Do you drink it?</string>
     <string name="drink">Bottoms up.</string>
     <string name="af_drink">...it tasts like...fruit punch?</string>
     <string name="table">Look at the table again.</string>
     <string name="put_back">Put it back on the table.</string>
-
     <string name="hold_on">Hold on to it for later.</string>
     <string name="af_glasses">You pick up the glasses, they look pretty old. </string>
     <string name="put_on">Put them on. </string>
@@ -64,6 +66,27 @@
     <string name="title_activity_table">Table</string>
     <string name="go_door">Go through the door.</string>
     <string name="title_activity_kitchen">Kitchen</string>
+<!--KITCHEN-->
+    <string name="k_enter">As you open the door you realize you walked into a giant kitchen filled with herbs hanging off shelves, food spilling out of every cabinet. There are newt toes, rat tails, eyeballs in jars. You see a giant black cauldron with boiling green and purple liquid inside. You see a figure come out from the lines of shelves. She had skin that was tinted green, wore a long black dress, and had a black pointed hat. It was a witch! You begin to back up before she can turn you into a ferret, or steal your life force, or something witches do! As you back up your back hit a cabinet and knock a jar with some crystals over. You stand frozen, you don’t want to move a muscle. She looks up at you and begins cackling over the cauldron.</string>
+    <string name="k_option1">Run back to the door.</string>
+    <string name="k_option2">Knock over her cauldron. </string>
+    <string name="k_option3">Throw something at her. </string>
+    <string name="k_option1_2">You run back towards the door, however you feel your body transform. You look down at yourself and realize you have been turned into a toad! The witch floats you over to her and turns you back into your normal human self. You are right back where you started.</string>
+    <string name="k_option2_2">You decide to try and fight her. You have no idea what’s in this cauldron, but it can’t be good. You run to it and tilt it so the bubbling liquid spills over her. The witch begins screaming in agony, you see some sort of energy running through her body. You begin to back away, but before you can get too far, she zaps you with lightning. You yell out in pain and run towards the door. You make it back out to the dining room, a little singed but otherwise ok. </string>
+    <string name="k_option3_2">You pick up the crystal and throw it, and as it hits her, a black cloud of smoke seeped out of her body and entered the crystal. The witch said “You removed the curse that was placed upon me. You see I was cursed to cackle for the rest of eternity, but you broke the spell, and now I am indebted to you.” You explain that you just want to leave, but the gate is locked so you cannot go. The witch responds, “I don’t have the key to the gate, but I assume the master of the house does. He is cooped up in his bedroom upstairs, Perhaps you can try and talk to him.” You explain to Hazel that you cannot get upstairs because there is furniture blocking the way. “Furniture huh? Those pesky spirits must be playing their pranks again. Well, I have a decluttering spell I could use, it is in my spell book… but I can’t remember where I left it...</string>
+    <string name="use_book"> Give her the book you found. </string>
+    <string name="look_book">Go look for the book. </string>
+    <string name="af_give_book">“Ahh! Fantastic,  just the book I need!” Hazel begins to move around grabbing ingredients and throwing them into her cauldron. She says a few words and the potion turns many different colors. Pretty soon she is scooping the now-turned-purple liquid into a glass flask and hands it to you. “Now, when you get back into the entryway, throw this potion onto the furniture and it should declutter itself! Now if there is anything else you need help with or need me to do! Don’t hesitate to come ask me!” You thank Hazel once again and set out to leave the kitchen.</string>
+    <string name="k_enter_after">The witch sees you enter and says, "Welcome back, did you find my book?"</string>
+    <string name="no_book">Tell her no, and keep looking. </string>
+    <string name="exit_k">Leave the kitchen.</string>
+    <string name="tbd">Next Update Coming soon!</string>
+    <string name="play_again">Start Over</string>
+
+
+
+
+
 
 
 </resources>
