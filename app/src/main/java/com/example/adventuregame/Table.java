@@ -126,11 +126,8 @@ public class Table extends AppCompatActivity {
                         startActivity(new Intent(Table.this, Table.class));
                     }
                 });
-
             }
         });
-
-
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -141,5 +138,4 @@ public class Table extends AppCompatActivity {
             }
         });
     }
-
 }

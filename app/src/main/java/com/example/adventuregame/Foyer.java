@@ -19,8 +19,6 @@ public class Foyer extends AppCompatActivity {
     private TextView buttonText2;
     private TextView buttonText3;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,16 +37,13 @@ public class Foyer extends AppCompatActivity {
         final Button button2 = findViewById(R.id.button_2);
         final Button button3 = findViewById(R.id.button_3);
 
-
         textView.setText(R.string.foyer);
         buttonText1.setText(R.string.door1); //dining room
         buttonText2.setText(R.string.door2);//kitchen
         buttonText3.setText(R.string.door3);//stair case
 
         button1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { //after you hit continue..
-//                startActivity(new Intent(Foyer.this, Dining.class));
-                //to be continued
+            public void onClick(View v) {
                 textView.setText(R.string.tbd);
                 buttonText1.setText(R.string.play_again);
                 button2.setVisibility(View.GONE);
@@ -58,32 +53,17 @@ public class Foyer extends AppCompatActivity {
                         startActivity(new Intent(Foyer.this, MainActivity.class));
                     }
                 });
-
-
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { //after you hit continue..
                 textView.setText(R.string.k_locked);
-//                startActivity(new Intent(GraveYard.this, Porch.class));
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { //after you hit continue..
                 textView.setText(R.string.s_blocked);
-//                startActivity(new Intent(GraveYard.this, Porch.class));
             }
         });
-
-
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
-
 }

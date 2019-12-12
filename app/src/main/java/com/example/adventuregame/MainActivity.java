@@ -24,21 +24,11 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-
         final Button button = findViewById(R.id.s_button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //TESTING CHANGE BACK
                 startActivity(new Intent(MainActivity.this, Gate.class));
-//                startActivity(new Intent(MainActivity.this, Dining.class));
             }
         });
 

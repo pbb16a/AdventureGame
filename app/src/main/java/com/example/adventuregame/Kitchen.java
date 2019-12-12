@@ -26,7 +26,7 @@ public class Kitchen extends AppCompatActivity {
         setContentView(R.layout.activity_kitchen);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//get textviews
+        //get textviews
         textView = findViewById(R.id.textView3);
         buttonText1 = findViewById(R.id.button_1);
         buttonText2 = findViewById(R.id.button_2);
@@ -36,9 +36,6 @@ public class Kitchen extends AppCompatActivity {
         final Button button1 = findViewById(R.id.button_1);
         final Button button2 = findViewById(R.id.button_2);
         final Button button3 = findViewById(R.id.button_3);
-
-
-
 
         if(!entered || rbf_bw){
             entered = true;
@@ -107,16 +104,5 @@ public class Kitchen extends AppCompatActivity {
                 });
             }
         }
-
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
-//    startActivity(new Intent(Table.this, Table.class));
-
 }
