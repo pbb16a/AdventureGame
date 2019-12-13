@@ -59,7 +59,6 @@ public class Gate extends AppCompatActivity {
                 buttonText1.setText(R.string.cy_opt1); //gy
                 buttonText2.setText(R.string.cy_opt2); //house
 
-
                 button1.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
                         startActivity(new Intent(Gate.this, GraveYard.class));

@@ -24,7 +24,7 @@ public class GraveYard extends AppCompatActivity {
     private TextView buttonText2;
     private TextView buttonText3;
     private ImageView imageViewMonster;
-    final MediaPlayer graveyard = MediaPlayer.create(this, R.raw.graveyard);
+//
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class GraveYard extends AppCompatActivity {
         imageViewMonster = findViewById(R.id.image_view_monster);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        final MediaPlayer graveyard = MediaPlayer.create(this, R.raw.graveyard);
         //get textviews
         textView = findViewById(R.id.textView3);
         buttonText1 = findViewById(R.id.button_1);
@@ -48,7 +48,6 @@ public class GraveYard extends AppCompatActivity {
         graveyard.start();
 
         if(!explored) {
-
 
             textView.setText(R.string.court_yard2);
             button2.setVisibility(View.VISIBLE);
