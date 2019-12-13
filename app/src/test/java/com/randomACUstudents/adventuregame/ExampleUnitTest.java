@@ -1,4 +1,4 @@
-package com.example.adventuregame;
+package com.randomACUstudents.adventuregame;
 
 import org.junit.Test;
 

@@ -30,4 +30,10 @@
 
     <include layout="@layout/content_gate" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        app:srcCompat="@drawable/gate" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

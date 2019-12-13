@@ -1,11 +1,8 @@
-package com.example.adventuregame;
+package com.randomACUstudents.adventuregame;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -20,7 +17,6 @@ public class Foyer extends AppCompatActivity {
     private TextView buttonText2;
     private TextView buttonText3;
 
-    final MediaPlayer foyer = MediaPlayer.create(this, R.raw.darkcastle);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +24,8 @@ public class Foyer extends AppCompatActivity {
         setContentView(R.layout.activity_foyer);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        final MediaPlayer foyer = MediaPlayer.create(this, R.raw.darkcastle);
 
         //get textviews
         textView = findViewById(R.id.textView3);

@@ -30,4 +30,10 @@
 
     <include layout="@layout/content_foyer" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:srcCompat="@drawable/foyer" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

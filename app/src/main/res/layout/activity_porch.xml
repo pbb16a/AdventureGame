@@ -30,4 +30,10 @@
 
     <include layout="@layout/content_porch" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        app:srcCompat="@drawable/housefinished" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
