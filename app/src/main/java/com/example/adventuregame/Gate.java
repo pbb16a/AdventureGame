@@ -2,6 +2,7 @@
 package com.example.adventuregame;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -26,6 +27,7 @@ public class Gate extends AppCompatActivity {
         setContentView(R.layout.activity_gate);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        final MediaPlayer into = MediaPlayer.create(this, R.raw.into);
 
         //get textviews
         textView = findViewById(R.id.textView3);
@@ -37,11 +39,15 @@ public class Gate extends AppCompatActivity {
         final Button button2 = findViewById(R.id.button_2);
         final Button button3 = findViewById(R.id.button_3);
 
+        into.start();
+
 
         //set text to starting point
         textView.setText(R.string.intro);
         buttonText1.setText(R.string.yes);
         buttonText2.setText(R.string.no);
+
+        into.start();
 
         //hide 3rd button
         button3.setVisibility(View.GONE);

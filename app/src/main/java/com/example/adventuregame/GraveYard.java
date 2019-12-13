@@ -1,6 +1,7 @@
 package com.example.adventuregame;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -12,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.GestureDetector;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class GraveYard extends AppCompatActivity {
@@ -21,10 +23,14 @@ public class GraveYard extends AppCompatActivity {
     private TextView buttonText1;
     private TextView buttonText2;
     private TextView buttonText3;
+    private ImageView imageViewMonster;
+    final MediaPlayer graveyard = MediaPlayer.create(this, R.raw.graveyard);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grave_yard);
+        imageViewMonster = findViewById(R.id.image_view_monster);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -38,6 +44,9 @@ public class GraveYard extends AppCompatActivity {
         final Button button1 = findViewById(R.id.button_1);
         final Button button2 = findViewById(R.id.button_2);
         final Button button3 = findViewById(R.id.button_3);
+
+        graveyard.start();
+
         if(!explored) {
 
 
@@ -56,6 +65,7 @@ public class GraveYard extends AppCompatActivity {
                     button1.setOnClickListener(new View.OnClickListener() {
                         public void onClick(View v) { //after you hit continue..
                             textView.setText(R.string.gy_cont2);
+                            imageViewMonster.setImageResource(R.drawable.skelliesdone);
                             buttonText1.setText(R.string.gy_cont_opt1);
                             buttonText2.setText(R.string.gy_cont_opt2);
                             buttonText3.setText(R.string.gy_cont_opt3);
