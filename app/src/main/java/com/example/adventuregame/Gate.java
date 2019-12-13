@@ -13,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Gate extends AppCompatActivity {
@@ -20,6 +21,7 @@ public class Gate extends AppCompatActivity {
     private TextView textView;
     private TextView buttonText1;
     private TextView buttonText2;
+//    private ImageView gateImg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +31,12 @@ public class Gate extends AppCompatActivity {
         setSupportActionBar(toolbar);
         final MediaPlayer into = MediaPlayer.create(this, R.raw.into);
 
-        //get textviews
         textView = findViewById(R.id.textView3);
         buttonText1 = findViewById(R.id.button_1);
         buttonText2 = findViewById(R.id.button_2);
+
+//        ImageView img= (ImageView) findViewById(R.id.imageView);
+//        img.setImageResource(R.drawable.gate);
 
         //get buttons
         final Button button1 = findViewById(R.id.button_1);

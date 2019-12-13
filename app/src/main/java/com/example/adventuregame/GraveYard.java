@@ -24,7 +24,6 @@ public class GraveYard extends AppCompatActivity {
     private TextView buttonText2;
     private TextView buttonText3;
     private ImageView imageViewMonster;
-//
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,10 +119,8 @@ public class GraveYard extends AppCompatActivity {
                                     textView.setText(R.string.fight);
                                 }
                             });
-
                         }
                     });
-
                 }
             });
             button2.setOnClickListener(new View.OnClickListener() {
@@ -196,22 +193,8 @@ public class GraveYard extends AppCompatActivity {
                             textView.setText(R.string.fight);
                         }
                     });
-
                 }
             });
-
-
         }
-
-
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
-
 }
