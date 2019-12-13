@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".Kitchen">
 
+    <ImageView
+        android:id="@+id/image_view_monster"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/angrywitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/image_view_monster2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/happywitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

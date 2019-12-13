@@ -1,6 +1,7 @@
 package com.example.adventuregame;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Kitchen extends AppCompatActivity {
@@ -20,6 +22,9 @@ public class Kitchen extends AppCompatActivity {
     private TextView buttonText3;
     public static boolean rbf_bw = false;
     boolean entered = false;
+    private ImageView imageViewMonster;
+    final MediaPlayer kitchen = MediaPlayer.create(this, R.raw.kitchen);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,9 +42,12 @@ public class Kitchen extends AppCompatActivity {
         final Button button2 = findViewById(R.id.button_2);
         final Button button3 = findViewById(R.id.button_3);
 
+        kitchen.start();
+
         if(!entered || rbf_bw){
             entered = true;
             textView.setText(R.string.k_enter);
+            imageViewMonster.setImageResource(R.drawable.angrywitch);
             buttonText1.setText(R.string.k_option1);
             buttonText2.setText(R.string.k_option2);
             buttonText3.setText(R.string.k_option3);
@@ -60,6 +68,7 @@ public class Kitchen extends AppCompatActivity {
                 public void onClick(View v) {
                     rbf_bw = false;
                     textView.setText(R.string.k_option3_2);
+                    imageViewMonster.setImageResource(R.drawable.happywitch);
                     button2.setVisibility(View.GONE);
                     button3.setVisibility(View.GONE);
                     if(Dining.book){

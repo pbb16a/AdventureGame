@@ -1,6 +1,7 @@
 package com.example.adventuregame;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -26,6 +27,7 @@ public class Porch extends AppCompatActivity {
         setContentView(R.layout.activity_porch);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        final MediaPlayer graveyard = MediaPlayer.create(this, R.raw.graveyard);
 
         //get textviews
         textView = findViewById(R.id.textView3);
@@ -40,6 +42,8 @@ public class Porch extends AppCompatActivity {
 
         button2.setVisibility(View.GONE);
         button3.setVisibility(View.GONE);
+
+        graveyard.start();
 
         if(gotKey) {
             textView.setText(R.string.open_door);

@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".GraveYard">
 
+    <ImageView
+        android:id="@+id/image_view_monster"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/skelliesdone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,5 +39,11 @@
 <!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
 
     <include layout="@layout/content_grave_yard" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/graveyarddone" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
